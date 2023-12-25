@@ -1,0 +1,92 @@
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F2E9E4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 3s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+
+header {
+    background-color: #DB6AD7;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    animation: fadeIn 3s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+
+article h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+article p {
+    font-size: 22px;
+    line-height: 1.5;
+    max-width: 75%;
+    display: block; /* Add this line to make the image a block-level element */
+    margin-left: auto; /* Add this line to center-align the image */
+    margin-right: auto; /* Add this line to center-align the image */
+    text-indent: 2em; /* Add this line to indent the first line of each paragraph */
+    white-space: pre-line; /* Add this line to respect line breaks in the source text */
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: block; /* Add this line to make the image a block-level element */
+    margin-left: auto; /* Add this line to center-align the image */
+    margin-right: auto; /* Add this line to center-align the image */
+}
+
+nav {
+    background-color: #DB6AD7;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.resized-image {
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
